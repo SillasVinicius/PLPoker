@@ -15,6 +15,10 @@
     justify-content: center;
 }
 
+.img-container {
+    margin-bottom: 30px;
+}
+
 .img-logo {
     width: 20vw;
 }
@@ -41,4 +45,24 @@
 
 .button-entry:hover {
     background: var(--action);
+}
+
+.input-container {
+    margin-top: 20px;
+}
+.select-input {
+    background-color: var(--darker);
+    border: 3px solid var(--action);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--lighter);
+    width: 20vw;
+}
+.text-input {
+    background-color: var(--darker);
+    border: 3px solid var(--action);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--lighter);
+    width: 20vw;
 }
