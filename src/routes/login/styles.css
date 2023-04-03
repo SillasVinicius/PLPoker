@@ -20,49 +20,24 @@
 }
 
 .img-logo {
-    width: 20vw;
+    width: 20rem;
 }
 
-.button-entry {
-    margin-top: 30px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 15vw;
-    height: 65px;
-
-    font-size: larger;
-
-    color: var(--lighter);
-    background: var(--darker);
-    border: 3px solid var(--action);
-    border-radius: 8px;
-    transition: .5s;
-    text-decoration: none;
+.custom-select {
+    width: 17rem;
+    height: 45px;
 }
 
-.button-entry:hover {
-    background: var(--action);
+.custom-select select option{
+    font: 400 1rem 'Nunito', sans-serif;
 }
 
-.input-container {
-    margin-top: 20px;
-}
 .select-input {
     background-color: var(--darker);
     border: 3px solid var(--action);
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
     color: var(--lighter);
-    width: 20vw;
-}
-.text-input {
-    background-color: var(--darker);
-    border: 3px solid var(--action);
-    border-radius: 8px;
-    padding: 10px;
-    color: var(--lighter);
-    width: 20vw;
+    width: 100%;
+    height: 100%;
 }

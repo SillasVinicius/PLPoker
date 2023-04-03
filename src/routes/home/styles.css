@@ -16,39 +16,5 @@
 }
 
 .img-logo {
-    width: 20vw;
-}
-
-.button-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-entry {
-    margin-top: 30px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 15vw;
-    height: 65px;
-
-    font-size: larger;
-
-    color: var(--lighter);
-    background: var(--darker);
-    border: 3px solid var(--action);
-    border-radius: 8px;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.button-entry:hover {
-    background: var(--action);
-}
-
-.button-entry:nth-child(2) {
-    margin-left: 10px;
+    width: 20rem;
 }

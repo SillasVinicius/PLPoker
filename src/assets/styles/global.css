@@ -22,10 +22,22 @@ body {
     background: var(--darker);
 }
 
-body, input, button, textarea {
-    font: 600 18px 'Nunito', sans-serif;
+body, input, button, textarea, select {
+    font: 600 1.125rem 'Nunito', sans-serif;
 }
 
 button, input {
     outline: 0;
+}
+
+@media (max-width: 720px) {
+    :root {
+        font-size: 87.5%;
+    }
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

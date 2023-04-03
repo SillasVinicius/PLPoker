@@ -1,0 +1,10 @@
+.text-input {
+    background-color: var(--darker);
+    border: 3px solid var(--action);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--lighter);
+    width: 17rem;
+    height: 45px;
+    margin: 20px 0;
+}
